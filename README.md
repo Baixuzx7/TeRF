@@ -12,35 +12,9 @@ Code for TeRF: Text-driven and Region-aware Flexible Visible and Infrared Image 
 
 ### File directory description
 ```
-DISPNet-main
-├── data
-│  ├── TestFolder
-|  |  |── ms
-│  │     |└── 1.tif
-|  |  |── ms_label
-│  │     |└── 1.tif
-|  |  |── pan
-│  │     |└── 1.tif
-|  |  |── pan_label
-│  │     |└── 1.tif
-├── checkpoint
-│  ├── net
-│  │     |└── Best.pth
-│  ├── opt
-├── LICENSE.txt
-├── README.md
-├── config.py
-├── dataset.py
-├── eval.py
-├── modal.py
-├── model.py
-├── modules.py
-├── perstages.py
-├── process.py
-├── synthesis.py
-├── test.py
-├── train.py
-```
+TeRF-main
+
+### Runing Tips
 
 ### Contributor
 
@@ -63,3 +37,4 @@ The project is signed under the MIT license, see the [LICENSE.txt](https://githu
   year={2024}
 }
 ```
+to be continue...
