@@ -91,6 +91,20 @@ def main():
 
 if __name__ == '__main__':
     setup_seed(3407) 
+    if not os.path.exists('./outputs/'):
+        os.makedirs('./outputs/')
+    if not os.path.exists('./outputs/fuses'):
+        os.makedirs('./outputs/fuses')
+    if not os.path.exists('./outputs/finetunes'):
+        os.makedirs('./outputs/finetunes')
+    if not os.path.exists('./outputs/metrics'):
+        os.makedirs('./outputs/metrics')
+    if not os.path.exists('./outputs/pipelines'):
+        os.makedirs('./outputs/pipelines')
+    if not os.path.exists('./outputs/results'):
+        os.makedirs('./outputs/results')
+    if not os.path.exists('./outputs/union'):
+        os.makedirs('./outputs/union')
     if os.path.exists('./outputs/masks'):
         shutil.rmtree('./outputs/masks')
     main()
