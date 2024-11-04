@@ -13,6 +13,7 @@ Code for TeRF: Text-driven and Region-aware Flexible Visible and Infrared Image 
 ### File directory description
 ```
 TeRF-main
+```
 
 ### Runing Tips
 
@@ -23,14 +24,13 @@ Baixuzx7 @ wanghebaixu@gmail.com
 
 ### Copyright statement
 
-The project is signed under the MIT license, see the [LICENSE.txt](https://github.com/Baixuzx7/DISPNet/main/LICENSE.txt)
+The project is signed under the MIT license, see the [LICENSE.txt](https://github.com/Baixuzx7/TeRF/main/LICENSE.txt)
 
 ### Architecture of TeRF
 ![characteristic](images/demonstration.jpg)
 ![overview](images/architecture.jpg)
 
 ### Reference
-```
 @inproceedings{wang2024terf,
   title={TeRF: Text-driven and Region-aware Flexible Visible and Infrared Image Fusion},
   author={Wang, Hebaixu and Zhang, Hao and Yi, Xunpeng and Xiang, Xinyu and Fang, Leyuan and Ma, Jiayi},
