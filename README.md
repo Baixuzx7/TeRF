@@ -29,6 +29,7 @@ The project is signed under the MIT license, see the [LICENSE.txt](https://githu
 ![overview](images/architecture.png)
 
 ### Reference
+```
 @inproceedings{wang2024terf,
   title={TeRF: Text-driven and Region-aware Flexible Visible and Infrared Image Fusion},
   author={Wang, Hebaixu and Zhang, Hao and Yi, Xunpeng and Xiang, Xinyu and Fang, Leyuan and Ma, Jiayi},
