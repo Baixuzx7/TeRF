@@ -16,6 +16,7 @@ TeRF-main
 
 ### Runing Tips
 
+
 ### Contributor
 
 Baixuzx7 @ wanghebaixu@gmail.com
@@ -25,8 +26,8 @@ Baixuzx7 @ wanghebaixu@gmail.com
 The project is signed under the MIT license, see the [LICENSE.txt](https://github.com/Baixuzx7/DISPNet/main/LICENSE.txt)
 
 ### Architecture of TeRF
-![characteristic](image/attribute.jpg)
-![overview](image/workflow.jpg)
+![characteristic](images/demonstration.jpg)
+![overview](images/architecture.jpg)
 
 ### Reference
 ```
@@ -37,4 +38,3 @@ The project is signed under the MIT license, see the [LICENSE.txt](https://githu
   year={2024}
 }
 ```
-to be continue...
