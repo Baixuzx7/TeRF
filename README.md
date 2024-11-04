@@ -14,7 +14,7 @@ Code for TeRF: Text-driven and Region-aware Flexible Visible and Infrared Image 
 
 1. Install the libraries and weights required for the large model
 2. Training the fusion backbone
-3. Runing the main.py
+3. Runing the main procedure (torchrun --nproc_per_node 1 main.py)
    
 ### Contributor
 
