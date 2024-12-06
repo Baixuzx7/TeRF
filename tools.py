@@ -207,7 +207,7 @@ def task_process_lowlightEnhance(finetune_trainer,image_ir,image_vi,image_fn,mas
     gamma_vals = Numerator / denominator
     if gamma_vals == 1:
         gamma_vals = gamma_vals - random.random()
-    finetune_trainer.criterion.gamma = min(Numerator / denominator,0.2) 
+    finetune_trainer.criterion.gamma = min(Numerator / denominator,0.2)  # Hyperparameters that need to be set
     print('finetune_trainer.criterion.gamma: ',finetune_trainer.criterion.gamma)
     max_epochs, loss_minimun = 1000, 999  
     epoch_bar = tqdm(range(max_epochs))
@@ -318,7 +318,7 @@ def task_process_highlightcorrect(finetune_trainer,image_ir,image_vi,image_fn,ma
     gamma_vals = Numerator / denominator
     if gamma_vals == 1:
         gamma_vals = gamma_vals + random.random()
-    finetune_trainer.criterion.gamma = max(Numerator / denominator,2.5)
+    finetune_trainer.criterion.gamma = max(Numerator / denominator,2.5) # Hyperparameters that need to be set
     print('finetune_trainer.criterion.gamma: ',finetune_trainer.criterion.gamma)
     max_epochs, loss_minimun = 500, 999  
     epoch_bar = tqdm(range(max_epochs))
